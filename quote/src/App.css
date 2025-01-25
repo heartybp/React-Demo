@@ -1,0 +1,57 @@
+/* App.css */
+.App {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header Styling */
+.app-header {
+  background-color: #4caf50; /* Same as button color */
+  color: white;
+  padding: 1.5rem 0; /* Increased padding for better appearance */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+
+.quote-container {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 5rem;
+}
+
+.quote {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.loading {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #777;
+}
+
+.new-quote-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-quote-button:hover {
+  background-color: #45a049;
+}
